@@ -880,7 +880,7 @@
         background-color: #000;
     }
 
-    #t-box{
+    /* #t-box{
         padding: 10px;
         width: 200px;
         height: 200px;
@@ -889,14 +889,14 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
+    } */
 
     #third h1{
         color: #fff;
-        /* position: absolute;
+        position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%); */
+        transform: translate(-50%, -50%);
     }
 
     /* Responsive */
@@ -1102,36 +1102,36 @@
         }
 
         #sec-top #boxes{
-            margin-top: 37%;
+            margin-top: 30%;
         }
 
         #boxes #box-1 {
             width: 22.6vw;
-            height: 155vw;
+            height: 158.5vw;
         }
 
         #boxes #box-2 {
             margin-top: 15vw;
             width: 22.6vw;
-            height: 140vw;
+            height: 143.5vw;
         }
 
         #boxes #box-3 {
             margin-top: 30vw;
             width: 22.6vw;
-            height: 125vw;
+            height: 128.5vw;
         }
 
         #boxes #box-4 {
             margin-top: 45vw;
             width: 22.6vw;
-            height: 110vw;
+            height: 113.5vw;
         }
 
         #boxes #box-5 {
             margin-top: 60vw;
             width: 22.6vw;
-            height: 95vw;
+            height: 98.5vw;
         }
 
         #sec-top #boxes2{
