@@ -880,7 +880,7 @@
         background-color: #000;
     }
 
-    /* #t-box{
+    #t-box{
         padding: 10px;
         width: 200px;
         height: 200px;
@@ -889,14 +889,14 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    } */
+    }
 
     #third h1{
         color: #fff;
-        position: absolute;
+        /* position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
     }
 
     /* Responsive */
@@ -923,7 +923,7 @@
         }
 
         #bottom{
-            top: 92%;
+            top: 90%;
             height: auto;
             width: 134%;
         }
@@ -989,7 +989,7 @@
         }
 
         #overlay #f-h1{
-            bottom: 2%;
+            bottom: 5%;
             font-size: 12.5vw;
             font-weight: 500;
         }
@@ -1014,8 +1014,8 @@
         }
 
         #home #circle {
-            /* width: 50vw;
-            height: 50vw; */
+            /* width: 70vw;
+            height: 70vw; */
             z-index: 2;
         }
 
@@ -1081,8 +1081,8 @@
 
         #s-bottom {
             overflow: hidden;
-            bottom: 0%;
-            width: 130%;
+            bottom: 4.5%;
+            width: 122%;
             height: auto;
         }
 
@@ -1102,36 +1102,36 @@
         }
 
         #sec-top #boxes{
-            margin-top: 77%;
+            margin-top: 37%;
         }
 
         #boxes #box-1 {
             width: 22.6vw;
-            height: 77vw;
+            height: 155vw;
         }
 
         #boxes #box-2 {
             margin-top: 15vw;
             width: 22.6vw;
-            height: 61.8vw;
+            height: 140vw;
         }
 
         #boxes #box-3 {
             margin-top: 30vw;
             width: 22.6vw;
-            height: 46.8vw;
+            height: 125vw;
         }
 
         #boxes #box-4 {
             margin-top: 45vw;
             width: 22.6vw;
-            height: 31.8vw;
+            height: 110vw;
         }
 
         #boxes #box-5 {
             margin-top: 60vw;
             width: 22.6vw;
-            height: 16.8vw;
+            height: 95vw;
         }
 
         #sec-top #boxes2{
@@ -1140,65 +1140,65 @@
 
         #boxes2 #box-1 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17.6vw;
         }
 
         #boxes2 #box-2 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17.6vw;
         }
 
         #boxes2 #box-3 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17.6vw;
         }
 
         #boxes2 #box-4 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17.6vw;
         }
 
         #boxes2 #box-5 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17.6vw;
         }
 
         #boxes2 #box-6 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17.6vw;
         }
 
         #sec-top #boxes3{
-            margin-top: 7%;
+            margin-top: 7.2%;
         }
 
         #boxes3 #box-1 {
             width: 22.6vw;
-            height: 13vw;
+            height: 16.2vw;
         }
 
         #boxes3 #box-2 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17vw;
         }
 
         #boxes3 #box-3 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17vw;
         }
 
         #boxes3 #box-4 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17vw;
         }
 
         #boxes3 #box-5 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17vw;
         }
 
         #boxes3 #box-6 {
             width: 22.6vw;
-            height: 13vw;
+            height: 17vw;
         }
     }

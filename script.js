@@ -178,7 +178,7 @@ function gsaptimeline1(){
     
         .to("#overlay #nexth1",{
             rotate: 0,
-            bottom: "2%",
+            bottom: "5%",
             duration: 2.3,
             delay: 2.7,
             // stagger: 0.1,
