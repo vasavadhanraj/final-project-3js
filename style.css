@@ -1080,6 +1080,7 @@
         }
 
         #s-bottom {
+            overflow: hidden;
             bottom: 0%;
             width: 130%;
             height: auto;
