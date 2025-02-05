@@ -943,10 +943,19 @@
         }
 
         #centerimg{
-            width: 90vw;
-            left: 50%;
+            transform: translate(-50%, -60%);
+            width: 80vw;
+            left: 100%;
             font-size: 4.1vw;
         }
+
+        #centerimg #cimage{
+            height: 160px;
+        }
+
+        /* #cimage img{
+            height: 80%;
+        } */
 
         #animate-top {
             width: 68vw;
@@ -1059,7 +1068,13 @@
         }
 
         #sec-bottom p{
-            font-size: 7vw;
+            top: 40%;
+            font-size: 6vw;
+        }
+
+        #sec-bottom #para2{
+            width: 80%;
+            margin-top: 2.5%;
         }
 
         #no h1{
@@ -1069,15 +1084,15 @@
         }
 
         #no h1:nth-child(1){
-            top: 15%;
+            top: 7%;
         }
 
         #no h1:nth-child(2){
-            top: 24%;
+            top: 7% !important;
         }
 
         #no h1:nth-child(3){
-            top: 34%;
+            top: 7% !important;
         }
 
         #s-bottom {
