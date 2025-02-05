@@ -172,7 +172,7 @@ function gsaptimeline1(){
     
         .to("#mini-circle",{
             opacity: 0,
-            duration: 5.5,
+            duration: 3.5,
             ease: Power1,
         }, "Animate2")
     
@@ -275,7 +275,8 @@ function gsaptimeline2(){
         },"a")
 
         .to("#sec-top h1",{
-            left: "-160%",
+            left: "-140%",
+            marginLeft: "-15%",
             duration: 10,
             ease: Power1
         },"a")
