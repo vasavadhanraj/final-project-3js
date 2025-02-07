@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    width: 100%;
+}
+
+/* Nav Top Start */
+
+#nav #top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    position: absolute;
+    width: 100%;
+    height: 17%;
+}
+
+#nav #top h1{
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 1;
+    font-family: Neu-Hask-Grotesk-Pro;
+}
+
+/* Added Fonts */
+@font-face {
+    font-family: Neu-Hask-Grotesk-Pro;
+    src: url(/fonts/Neu-Hask-Grotesk-Pro.ttf);
+}
+
+@font-face {
+    font-family: DS-Digital;
+    src: url(/fonts/DS-Digital.ttf);
+}
+
+@font-face {
+    font-family: Ogg;
+    src: url(/fonts/Ogg.ttf);
+}
+
+@font-face {
+    font-family: Scto-Grotesk-A-Medium;
+    src: url(/fonts/Scto-Grotesk-A-Medium.ttf);
+}
+
+#top #color-i #color-top{
+    display: flex;
+}
+
+#color-top #box1{
+    width: 13px;
+    height: 13px;
+    background-color: rgba(0,0,0, 0.1);
+}
+
+#color-top #box2{
+    width: 13px;
+    height: 13px;
+    background-color: rgba(0,0,0, 0.3);
+}
+
+#color-top #box3{
+    width: 13px;
+    height: 13px;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+#color-top #box4{
+    width: 13px;
+    height: 13px;
+    background-color: rgba(0,0,0, 0.6);
+}
+
+#color-top #box5{
+    width: 13px;
+    height: 13px;
+    background-color: rgba(0,0,0, 0.7);
+}
+
+#color-top #box6{
+    width: 13px;
+    height: 13px;
+    background-color: rgba(0,0,0, 1);
+}
+
+#color-bottom{
+    margin-top: 8px;
+    display: flex;
+    font-size: 0.9vw;
+    align-items: center;
+    justify-content: space-between;
+    font-family: DS-Digital;
+}
+
+/* Nav Top End */
+
+/* Nav Bottom Start */
+
+#nav #bottom{
+    width: 100%;
+    height: 15%;
+    padding: 0px 50px;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav #bottom h3 sup{
+    background-color: black;
+    color: white;
+    padding: 2px;
+    font-family: Neu-Hask-Grotesk-Pro;
+    border-radius: 2px;
+    font-weight: 100;
+    font-size: 0.6vw;
+}
+
+#nav #bottom h3 sub{
+    padding: 2px;
+    font-family: DS-Digital;
+    font-weight: 100;
+    font-size: 1.2vw;
+}
+
+#nav #bottom img{
+    width: 7%;
+}
+
+/* Nav Bottom End */
+
+/* Center Style */
+
+#center-image{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+}
+
+#center-image img{
+    width: 100%;
+}
+
+#center-image h3{
+    font-weight: 100;
+    font-size: 1vw;
+    font-family: Scto-Grotesk-A-Medium;
+    color: #222;
+}
