@@ -1134,6 +1134,8 @@
         100% {right: 5%;}
     }
 
+/* Commented */
+
     #third #t-next{
         width: 95%;
         color: #d5a7b4;
@@ -1163,13 +1165,6 @@
         height: 230px;
     }
 
-    #t-hex h2{
-        position: absolute;
-        top: 60%;
-        font-weight: 100;
-        left: 60%;
-    }
-
     #t-hex2 {
         position: absolute;
         font-family: DS-DIGITAL;
@@ -1179,12 +1174,76 @@
         height: 270px;
     }
 
-    #t-hex2 h2{
+    #s-align{
         position: absolute;
-        font-weight: 100;
-        top: 60%;
-        left: 30%;
+        left: 57%;
+        top: 30%;
     }
+
+    #s-align2{
+        position: absolute;
+        left: 25%;
+        top: 40%;
+    }
+
+
+    .shape{
+        top: 0;
+        left: 0;
+        width: 130px;
+        height: 130px;
+        transform: rotate(23deg);
+        clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    }
+
+    #shape1{
+        position: absolute;
+        width: 127px;
+        height: 127px;
+        border: 27px solid #d5a7b4;
+    }
+
+    #shape2{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 123px;
+        height:123px;
+        border: 50px solid rgb(255, 247, 255);
+    }
+
+    #shape2 h2{
+        font-weight: 100;
+        transform: rotate(338deg);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: DS-Digital;
+        color: #d5a7b4;
+    }
+
+    #shape3{
+        margin-left: 2px;
+        margin-top: 2px;
+        position: absolute;
+        width: 123px;
+        height:123px;
+        border: 62px solid #d5a7b4 ;
+    }
+
+    #shape3 h2{
+        margin-top: -10px;
+        font-weight: 100;
+        transform: rotate(338deg);
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: DS-Digital;
+        color: rgb(255, 247, 255);
+    }
+
+    /* Till Here */
 
     /* Responsive */
 
