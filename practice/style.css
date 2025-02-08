@@ -174,7 +174,7 @@ html, body{
 
 #center-image{
     top: 40%;
-    left: 50%;
+    left: 83%;
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: 100;
@@ -213,7 +213,6 @@ html, body{
     border-radius: 50%;
     width: 55vw;
     height: 55vw;
-    background-color: red;
 }
 
 #circle img{
@@ -230,23 +229,39 @@ html, body{
     height: 100%;
 }
 
-#c-top img:nth-child(1){
-    transform: translate(-50%, -50%) rotate(180deg) scale(2.3);
+#c-top img:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(-180deg) scale(2);
 }
 
-#c-top img:nth-child(2){
-    transform: translate(-50%, -50%) rotate(180deg) scale(1.63);
+#c-top img:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(-180deg) scale(1.5);
 }
 
-#c-top img:nth-child(3){
-    transform: translate(-50%, -50%) rotate(180deg) scale(1.03);
+#c-top img:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(-180deg) scale(1);
 }
+
 
 #c-bottom{
     position: absolute;
     width: 100%;
     height: 100%;
 }
+
+#c-bottom img:nth-child(1) {
+    transform: translate(-50%, -50%) scale(2);
+}
+
+#c-bottom img:nth-child(2) {
+    transform: translate(-50%, -50%) scale(1.5);
+}
+
+#c-bottom img:nth-child(3) {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* 
+
 
 #c-bottom img:nth-child(1){
     transform: translate(-50%, -50%) scale(2.3);
@@ -258,7 +273,7 @@ html, body{
 
 #c-bottom img:nth-child(3){
     transform: translate(-50%, -50%) scale(1.03);
-}
+} */
 
 #mini-circle{
     position: absolute;
