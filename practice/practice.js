@@ -174,4 +174,109 @@ function gsaptimeline1(){
         })
 }
 
+function gsaptimeline2(){
+    var tl2 = gsap.timeline({
+        scrollTrigger: {
+            trigger: "#page2",
+            start: "top top",
+            scrub: 1,
+            // markers: true,
+            pin: true,
+            end: "bottom -150%"
+        },
+    })
+
+    tl2
+        .to("#page2 #overlay",{
+            backgroundColor: "rgba(0,0,0,0)",
+            scrub: 5,
+            duration: 0.5,
+            ease: "expo.inOut"
+        })
+
+        .to(".circle",{
+            top: "50%",
+            stagger: 0.15,
+            width: "20vw",
+            height: "20vw",
+            ease: Power1
+        })
+
+        .to(".circle",{
+            left: "50%",
+            stagger: 0.1,
+            scrub: 1,
+            delay: 2,
+            duration: 5,
+            ease: Power1
+        })
+
+        .to(".circle",{
+            scale: 0.6,
+            duration: 5,
+            ease: Power1
+        })
+
+        .to(".circle",{
+            scale: 1.2,
+            duration: 5,
+            ease: Power1
+        })
+
+        .to(".circle",{
+            scale: 5.5,
+            duration: 5,
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #nav #top h1",{
+            color: "#fff",
+            textShadow: "1px 1px 0.5px #fff",
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #color-bottom",{
+            color: "#fff",
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #color-top-2 #box1",{
+            backgroundColor: "rgba(255, 255, 255, 0.1)",
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #color-top-2 #box2",{
+            backgroundColor: "rgba(255, 255, 255, 0.3)",
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #color-top-2 #box3",{
+            backgroundColor: "rgba(255, 255, 255, 0.5)",
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #color-top-2 #box4",{
+            backgroundColor: "rgba(255, 255, 255, 0.6)",
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #color-top-2 #box5",{
+            backgroundColor: "rgba(255, 255, 255, 0.7)",
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #color-top-2 #box6",{
+            backgroundColor: "rgba(255, 255, 255, 1)", 
+            ease: Power1
+        }, "color")
+
+        .to("#page2 #s-top h1",{
+            left: "-100%",
+            duration: 100,
+            scrub: 1,
+            ease: Power1
+        })
+}
+
 gsaptimeline1();
+gsaptimeline2();

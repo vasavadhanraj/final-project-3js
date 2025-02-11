@@ -263,7 +263,7 @@ function gsaptimeline2(){
         })
 
         .to(".pu",{
-            backgroundColor: "linear-gradient(to right, #d5a7b4, #d5a7b4)",
+            background: "linear-gradient(to right, #d5a7b4, #d5a7b4)",
             // duration: 5,
             ease: Power1
         })

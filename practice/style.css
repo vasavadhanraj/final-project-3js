@@ -89,7 +89,7 @@ html, body{
     display: flex;
 }
 
-#color-top #box1{
+#box1{
     width: 13px;
     height: 13px;
     background-color: rgba(0,0,0, 0.1);
@@ -194,13 +194,13 @@ html, body{
 /* Center Style */
 
 #center-image{
-    top: 40%;
-    left: 83%;
+    top: 38%;
+    left: 88%;
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: 100;
     width: 390px;
-    height: 180px;
+    height: 170px;
 }
 
 #center-image img{
@@ -314,7 +314,7 @@ html, body{
     position: absolute;
     font-family: Neu-Hask-Grotesk-Pro;
     color: #fff;
-    text-shadow: 2px 2px 2px #333;
+    text-shadow: 1px 1px 1px #fff;
     width: 75%;
     bottom: -70%;
     left: 53.5%;
@@ -376,6 +376,189 @@ html, body{
     font-size: 2.5vw;
 }
 
+/* Ending Page1 */
+
+#page2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#page2 #overlay{
+    background-color: rgba(0,0,0, 0.1);
+}
+
+#page2 #nav #top h1{
+    text-shadow: 0.2px 0.2px 0.2px #000;
+    color: #282828;
+}
+
+#page2 #color-bottom{
+    text-shadow: none;
+    color: #282828;
+}
+
+#page2 #color-i #color-top-2{
+    display: flex;
+}
+
+#page2 #color-top-2 #box1{
+    background-color: rgba(0,0,0, 0.1);
+    border: none;
+}
+
+#page2 #color-top-2 #box2{
+    background-color: rgba(0,0,0, 0.3);
+    border: none;
+}
+
+#page2 #color-top-2 #box3{
+    background-color: rgba(0,0,0, 0.5);
+    border: none;
+}
+
+#page2 #color-top-2 #box4{
+    background-color: rgba(0,0,0, 0.6);
+    border: none;
+}
+
+#page2 #color-top-2 #box5{
+    background-color: rgba(0,0,0, 0.7);
+    border: none;
+}
+
+#page2 #color-top-2 #box6{
+    background-color: rgba(0,0,0, 1);
+    border: none;
+}
+
+#page2 #nav #bottom h3 sup{
+    background-color: #333 !important;
+    color: white !important;
+}
+
+#page2 #nav #bottom h3 sub{
+    color: #000 !important;
+    text-shadow: none !important;
+}
+
+#page2 #nav #bottom img{
+    opacity: 1 !important;
+}
+
+#page2 #s-top{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 60%;
+    /* border-bottom: 1.8px solid #dadada; */
+    border-bottom: 1.5px solid #9999;
+}
+
+#page2 #s-bottom{
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+#page2 #s-top h1{
+    color: #fff;
+    position: absolute;
+    top: 63%;
+    left: 200%;
+    transform: translate(-50%, -50%);
+    font-size: 29vw;
+    z-index: 99;
+    font-family: Neu-Hask-Grotesk-Pro;
+}
+
+#page2 .circle{
+    position: absolute;
+    top: 150%;
+    transform: translate(-48%, -51%);
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+#page2 .pi{
+    left: 41%;
+    background-color: #d5a7b4;
+    z-index: 1;
+}
+
+#page2 .pu{
+    left: 58.5%;
+    background-color: #B4AAD5;
+}
+
+#s-bottom #first{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+}
+
+#s-bottom #first p{
+    padding: 50px;
+    line-height: 1;
+    font-size: 3.5vw;
+    font-family: Neu-Hask-Grotesk-Pro;
+    text-align: center;
+}
+
+#s-bottom #first p:nth-child(2){
+    margin-left: 10%;
+}
+
+#s-bottom #first p:nth-child(3){
+    opacity: 0;
+}
+
+#s-bottom #second{
+    opacity: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+}
+
+#s-bottom #second p{
+    padding: 50px;
+    line-height: 1;
+    font-size: 3.5vw;
+    font-family: Neu-Hask-Grotesk-Pro;
+    text-align: center;
+}
+
+#s-bottom #second p:nth-child(2){
+    margin-left: 10%;
+}
+
+#s-bottom #second p:nth-child(3){
+    opacity: 0;
+}
+
+#s-bottom #third{
+    opacity: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+}
+
+#s-bottom #third p{
+    padding: 50px;
+    line-height: 1;
+    font-size: 3.5vw;
+    font-family: Neu-Hask-Grotesk-Pro;
+    text-align: center;
+}
+
 @media (max-width: 500px){
     #nav #top{
         padding: 10px 20px;
@@ -413,6 +596,15 @@ html, body{
 
     #nav #bottom img{
         width: 25%;
+    }
+
+    #b-2{
+        bottom: 6.5%;
+        left: 75.7%;
+    }
+
+    #b-2 img{
+        margin-left: 15px;
     }
 
     #center-image h3{
