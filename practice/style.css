@@ -487,8 +487,6 @@ html, body{
     left: 41%;
     background-color: #d5a7b4;
     /* background: linear-gradient(to right, #d5a7b4, #d5a7b4); */
-    width: 15vw;
-    height: 15vw;
     z-index: 1;
 }
 
@@ -745,4 +743,90 @@ html, body{
     #hexs span{
         font-size: 5vw;
     }
+
+    /* Page2  */
+
+    #page2 #s-top h1{
+        top: 62%;
+        left: 385%;
+        font-size: 110vw;
+    }
+
+    #page2 .circle{
+        top: 50%;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    #page2 .pi{
+        left: 30%;
+    }
+    
+    #page2 .pu{
+        left: 70%;
+        background-color: #B4AAD5;
+    }
+
+    /* #three-parts #boxes{
+        top: -20%;
+    }
+
+    #three-parts #boxes-2{
+        top: 74%;
+    }
+
+    #three-parts #boxes-3{
+        top: 87%;
+    } */
+
+    .box1{
+        width: 20.75vw;
+        height: 13.5vw;
+    }
+
+    .box2{
+        width: 20.75vw;
+        height: 13.5vw;
+    }
+
+    .box3{
+        width: 20.75vw;
+        height: 13.5vw;
+    }
+
+    .box4{
+        width: 20.75vw;
+        height: 13.5vw;
+    }
+
+    .box5{
+        width: 20.75vw;
+        height: 13.5vw;
+    }
+
+    .box6{
+        width: 20.75vw;
+        height: 13.5vw;
+    }
+
+    #boxes .box1{
+        height: 96vw;
+    }
+
+    #boxes .box2{
+        height: 91vw;
+    }
+
+    #boxes .box3{
+        height: 86vw;
+    }
+
+    #boxes .box4{
+        height: 81vw;
+    }
+
+    #boxes .box5{
+        height: 76vw;
+    }
+
 }
