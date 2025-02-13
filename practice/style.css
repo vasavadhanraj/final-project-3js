@@ -469,6 +469,7 @@ html, body{
     left: 200%;
     transform: translate(-50%, -50%);
     font-size: 29vw;
+    font-weight: 100;
     z-index: 99;
     font-family: Neu-Hask-Grotesk-Pro;
 }
@@ -485,12 +486,96 @@ html, body{
 #page2 .pi{
     left: 41%;
     background-color: #d5a7b4;
+    /* background: linear-gradient(to right, #d5a7b4, #d5a7b4); */
+    width: 15vw;
+    height: 15vw;
     z-index: 1;
 }
 
 #page2 .pu{
     left: 58.5%;
     background-color: #B4AAD5;
+}
+
+#three-parts #boxes{
+    display: flex;
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+#boxes .box1{
+    height: 38vw;
+}
+
+#boxes .box2{
+    margin-top: 5vw;
+    height: 33vw;
+}
+
+#boxes .box3{
+    margin-top: 10vw;
+    height: 28vw;
+}
+
+#boxes .box4{
+    margin-top: 15vw;
+    height: 23vw;
+}
+
+#boxes .box5{
+    margin-top: 20vw;
+    height: 18vw;
+}
+
+.box1{
+    width: 19.75vw;
+    height: 5.1vw;
+    background-color: #DFB1BE;
+}
+
+.box2{
+    width: 19.75vw;
+    height: 5.1vw;
+    background-color: #E9BBC8;
+}
+
+.box3{
+    width: 19.75vw;
+    height: 5.1vw;
+    background-color: #F3C5D2;
+}
+
+.box4{
+    width: 19.75vw;
+    height: 5.1vw;
+    background-color: #FDCFDC;
+}
+
+.box5{
+    width: 19.75vw;
+    height: 5.1vw;
+    background-color: #FFE3F0;
+}
+
+#boxes-2 .box6, #boxes-3 .box6{
+    width: 19.75vw;
+    height: 5.1vw;
+    background-color: #FFEDFA;
+}
+
+#three-parts #boxes-2{
+    top: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 99;
+}
+
+#three-parts #boxes-3{
+    top: 100%;
+    display: flex;
+    position: absolute;
+    z-index: 99;
 }
 
 #s-bottom #first{
@@ -518,7 +603,7 @@ html, body{
 }
 
 #s-bottom #second{
-    opacity: 0;
+    /* opacity: 0; */
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -534,7 +619,13 @@ html, body{
     text-align: center;
 }
 
+#s-bottom #second p:nth-child(1){
+    opacity: 0;
+}
+
 #s-bottom #second p:nth-child(2){
+    font-size: 3.3vw;
+    opacity: 0;
     margin-left: 10%;
 }
 
@@ -543,7 +634,6 @@ html, body{
 }
 
 #s-bottom #third{
-    opacity: 0;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -553,6 +643,7 @@ html, body{
 
 #s-bottom #third p{
     padding: 50px;
+    opacity: 0;
     line-height: 1;
     font-size: 3.5vw;
     font-family: Neu-Hask-Grotesk-Pro;

@@ -156,6 +156,7 @@ function gsaptimeline1(){
         }, "Animate2")
 
         .to("#animate-top",{
+            delay: 1,
             top: 0,
             duration: 5,
             ease: Power1
@@ -196,7 +197,9 @@ function gsaptimeline2(){
 
         .to(".circle",{
             top: "50%",
-            stagger: 0.15,
+            duration: 25,
+            delay: 3,
+            stagger: 10,
             width: "20vw",
             height: "20vw",
             ease: Power1
@@ -204,10 +207,10 @@ function gsaptimeline2(){
 
         .to(".circle",{
             left: "50%",
-            stagger: 0.1,
+            stagger: 0.5,
             scrub: 1,
             delay: 2,
-            duration: 5,
+            duration: 10,
             ease: Power1
         })
 
@@ -223,11 +226,72 @@ function gsaptimeline2(){
             ease: Power1
         })
 
-        .to(".circle",{
+        .to(".pi",{
             scale: 5.5,
             duration: 5,
             ease: Power1
         }, "color")
+
+        .to(".pu",{
+            opacity: 0,
+            ease: Power1
+        })
+
+        .to("#s-bottom #first p:nth-child(1)",{
+            marginTop: "-30px",
+            opacity: 0,
+            duration: 5,
+            ease: Power1
+        }, "color")
+
+        .to("#s-bottom #second p:nth-child(1)",{
+            marginTop: "30px",
+            ease: Power1
+        }, "color")
+
+        .to("#s-bottom #second p:nth-child(1)",{
+            marginTop: "0px",
+            opacity: 1,
+            duration: 5,
+            ease: Power1
+        }, "color")
+
+        .to("#s-bottom #first p:nth-child(2)",{
+            duration: 5,
+            ease: Power1
+        }, "color2")
+
+        .to("#s-bottom #first p:nth-child(2)",{
+            delay: 20,
+            opacity: 0,
+            duration: 5,
+            ease: Power1
+        }, "color2")
+
+        .to("#s-bottom #second p:nth-child(2)",{
+            opacity: 1,
+            duration: 15,
+            ease: Power1
+        })
+
+        .to("#s-bottom #second p:nth-child(1)",{
+            marginTop: "-40px",
+            opacity: 0,
+            duration: 15,
+            ease: Power1
+        }, "color3")
+
+        .to("#s-bottom #third p",{
+            marginTop: "30px",
+            ease: Power1
+        }, "color3")
+
+        .to("#s-bottom #third p",{
+            marginTop: "0px",
+            opacity: 1,
+            duration: 15,
+            ease: Power1
+        }, "color3")
 
         .to("#page2 #nav #top h1",{
             color: "#fff",
@@ -269,13 +333,60 @@ function gsaptimeline2(){
             backgroundColor: "rgba(255, 255, 255, 1)", 
             ease: Power1
         }, "color")
+        
+        .to(".pi",{
+            background: "linear-gradient( #d5a7b4, #d5a7b4)",
+            ease: Power1
+        }, "color2")
 
         .to("#page2 #s-top h1",{
             left: "-100%",
             duration: 100,
             scrub: 1,
             ease: Power1
-        })
+        }, "color2")
+
+
+        .to(".pi",{
+            background: "linear-gradient(to right, #d5a7b4, #b4aad5)",
+            delay: 35,
+            duration: 10,
+            ease: Power1
+        }, "color2")
+
+        .to("#three-parts #boxes",{
+            top: "-73%",
+            delay: 35,
+            duration: 15,
+            ease: Power1
+        }, "color3")
+
+        .to("#three-parts #boxes-2",{
+            top: "63.5%",
+            delay: 40,
+            duration: 5,
+            ease: Power1
+        }, "color3")
+
+        .to("#three-parts #boxes-3",{
+            top: "81.5%",
+            delay: 40,
+            duration: 5,
+            ease: Power1
+        }, "color3")
+
+        .to("#three-parts #boxes-2",{
+            left: "-10.1%",
+            duration: 10,
+            ease: Power1
+        }, "color4")
+
+        .to("#three-parts #boxes-3",{
+            left: "-15.2%",
+            duration: 15,
+            ease: Power1
+        }, "color4")
+
 }
 
 gsaptimeline1();
