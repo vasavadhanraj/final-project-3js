@@ -194,13 +194,13 @@ html, body{
 /* Center Style */
 
 #center-image{
-    top: 38%;
+    top: 45%;
     left: 88%;
     transform: translate(-50%, -50%);
     position: absolute;
     z-index: 100;
-    width: 390px;
-    height: 170px;
+    width: 30vw;
+    /* height: 170px; */
 }
 
 #center-image img{
@@ -648,6 +648,161 @@ html, body{
     text-align: center;
 }
 
+/* Page 3 */
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(255, 247, 255);
+    position: relative;
+}
+
+
+#page3 #nav #top h1{
+    text-shadow: 0.2px 0.2px 0.2px #000;
+    color: #d5a7b4;
+}
+
+#page3 #color-bottom{
+    text-shadow: none;
+    color: #d5a7b4;
+}
+
+#page3 #color-i #color-top-2{
+    display: flex;
+}
+
+#page3 #color-top-2 #box1{
+    background-color: rgba(213, 167, 180, 0.1);
+    border: none;
+}
+
+#page3 #color-top-2 #box2{
+    background-color: rgba(213, 167, 180, 0.3);
+    border: none;
+}
+
+#page3 #color-top-2 #box3{
+    background-color: rgba(213, 167, 180, 0.5);
+    border: none;
+}
+
+#page3 #color-top-2 #box4{
+    background-color: rgba(213, 167, 180, 0.6);
+    border: none;
+}
+
+#page3 #color-top-2 #box5{
+    background-color: rgba(213, 167, 180, 0.7);
+    border: none;
+}
+
+#page3 #color-top-2 #box6{
+    background-color: rgba(213, 167, 180, 1);
+    border: none;
+}
+
+#page3 #nav #bottom h3 sup{
+    background-color: #D5A7B4 !important;
+    color: white !important;
+}
+
+#page3 #nav #bottom h3 sub{
+    color: #d5a7b4 !important;
+    text-shadow: none !important;
+}
+
+#page3 #nav #bottom img{
+    opacity: 1 !important;
+}
+
+#page3 #p3-top{
+    margin-left: 40px;
+    border-bottom: 1px solid #d5a7b4;
+    width: 94%;
+    height: 75%;
+}
+
+#page3 #p3-bottom{
+    margin-left: 40px;
+    width: 94%;
+    height: 20%;
+}
+
+
+#p3-top h1{
+    font-size: 11.5vw;
+    font-family: Neu-Hask-Grotesk-Pro;
+    color: #d5a7b4;
+    font-weight: 100;
+    line-height: 0.95;
+    position: absolute;
+    top: 22%;
+}
+
+#p3-bottom{
+    font-family: Neu-Hask-Grotesk-Pro;
+    color: #D5A7B4;
+    text-shadow: 1px 1px black;
+    display: flex;
+    align-items: center;
+    gap: 25vw;
+    font-size: 3.8vw;
+}
+
+#p3-bottom #color-infos{
+    position: absolute;
+    left: 17%;
+    font-size: 0.8vw;
+    padding-top: 60px;
+}
+
+#color-infos .c-top{
+    margin-top: 10px;
+}
+
+#p3-s-bottom #circle-t{
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 12%;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #d5a7b4;
+    animation-name: animate1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#p3-s-bottom #circle2-t{
+    position: absolute;
+    margin-top: -2%;
+    margin-left: 12%;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #d5a7b4;
+    background-color: transparent;
+    animation-name: animate2;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate1 {
+    0% {right: 5.4%;}
+    50% {right: 8%;}
+    100% {right: 5.4%;}
+}
+
+@keyframes animate2 {
+    100% {right: 8%;}
+    50% {right: 5.4%;}
+    0% {right: 8%;}
+}
+
 @media (max-width: 500px){
     #nav #top{
         padding: 10px 20px;
@@ -698,6 +853,12 @@ html, body{
 
     #center-image h3{
         font-size: 3.4vw;
+    }
+
+    #center-image{
+        left: 100%;
+        width: 90vw;
+        transform: translate(-50%, -50%);
     }
 
     #mini-circle{
@@ -753,9 +914,9 @@ html, body{
     }
 
     #page2 .circle{
-        top: 50%;
-        width: 50vw;
-        height: 50vw;
+        /* top: 50%; */
+        width: 50vw !important;
+        height: 50vw !important;
     }
 
     #page2 .pi{
@@ -767,66 +928,126 @@ html, body{
         background-color: #B4AAD5;
     }
 
-    /* #three-parts #boxes{
-        top: -20%;
-    }
-
     #three-parts #boxes-2{
-        top: 74%;
+        margin-top: 9.7vw;
     }
 
     #three-parts #boxes-3{
-        top: 87%;
-    } */
+        margin-top: 4.9vw;
+    }
 
     .box1{
         width: 20.75vw;
-        height: 13.5vw;
+        height: 14vw;
     }
 
     .box2{
         width: 20.75vw;
-        height: 13.5vw;
+        height: 14vw;
     }
 
     .box3{
         width: 20.75vw;
-        height: 13.5vw;
+        height: 14vw;
     }
 
     .box4{
         width: 20.75vw;
-        height: 13.5vw;
+        height: 14vw;
     }
 
     .box5{
         width: 20.75vw;
-        height: 13.5vw;
+        height: 14vw;
     }
 
-    .box6{
+    #boxes-2 .box6, #boxes-3 .box6{
         width: 20.75vw;
-        height: 13.5vw;
+        height: 14vw;
     }
 
     #boxes .box1{
-        height: 96vw;
+        margin-top: 44vw;
+        height: 105vw;
     }
 
     #boxes .box2{
-        height: 91vw;
+        margin-top: 52vw;
+        height: 97vw;
     }
 
     #boxes .box3{
-        height: 86vw;
+        margin-top: 58vw;
+        height: 91vw;
     }
 
     #boxes .box4{
-        height: 81vw;
+        margin-top: 66vw;
+        height: 83vw;
     }
 
     #boxes .box5{
-        height: 76vw;
+        margin-top: 74vw;
+        height: 75vw;
+    }
+
+    #s-bottom #first p{
+        padding: 20px !important;
+        font-size: 5vw;
+    }
+
+    #s-bottom #second p{
+        padding: 20px !important;
+        font-size: 5vw;
+    }
+
+    #s-bottom #first p:nth-child(2){
+        font-size: 6vw;
+    }
+
+    #s-bottom #second p:nth-child(2){
+        font-size: 5.4vw;
+    }
+
+    #s-bottom #third p{
+        padding: 20px !important;
+        font-size: 5vw;
+    }
+
+    #page3 #p3-top{
+        margin-left: 18px;
+        height: 50%;
+    }
+
+    #p3-top h1{
+        font-size: 12vw;
+    }
+
+    #page3 #p3-bottom{
+        margin-left: 20px;
+        font-size: 9vw;
+        margin-top: 5%;
+        align-items: flex-start;
+    }
+
+    #p3-bottom #color-infos{
+        padding-top: 10px;
+        font-size: 1.5vw;
+        left: 22%;
+    }
+
+    #p3-s-bottom{
+        margin-top: 6%;
+    }
+
+    #p3-s-bottom #circle-t{
+        width: 28px;
+        height: 28px;
+    }
+
+    #p3-s-bottom #circle2-t{
+        width: 28px;
+        height: 28px;
     }
 
 }

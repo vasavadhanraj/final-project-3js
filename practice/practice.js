@@ -346,6 +346,12 @@ function gsaptimeline2(){
             ease: Power1
         }, "color2")
 
+        .to("#page2 #s-top h1",{
+            left: "-350%",
+            duration: 100,
+            scrub: 1,
+            ease: Power1
+        }, "color3")
 
         .to(".pi",{
             background: "linear-gradient(to right, #d5a7b4, #b4aad5)",
