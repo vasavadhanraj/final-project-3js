@@ -395,5 +395,27 @@ function gsaptimeline2(){
 
 }
 
+function gsaptimeline3(){
+    var tl3 = gsap.timeline({
+        scrollTrigger: {
+            trigger: "#page3-more",
+            start: "top 0%",
+            // markers: true,
+            scrub: 5,
+            pin: true,
+            end: "bottom 0%"
+        },
+    })
+
+    tl3
+        .to("#p3-center",{
+            transform: "translate(-50% ,-50%) rotate(170deg)",
+            duration: 1,
+            scrub: 5,
+            ease: Power1
+        })
+}
+
 gsaptimeline1();
 gsaptimeline2();
+gsaptimeline3();

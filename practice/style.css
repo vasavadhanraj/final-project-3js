@@ -653,11 +653,11 @@ html, body{
 #page3{
     width: 100%;
     height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     background-color: rgb(255, 247, 255);
     position: relative;
 }
-
 
 #page3 #nav #top h1{
     text-shadow: 0.2px 0.2px 0.2px #000;
@@ -801,6 +801,110 @@ html, body{
     100% {right: 8%;}
     50% {right: 5.4%;}
     0% {right: 8%;}
+}
+
+#page3-more{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 247, 255);
+}
+
+#p3-center{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg);
+    width: 37vw;
+    height: 37vw;
+}
+
+#p3-center img{
+    width: 100%;
+    height: 100%;
+}
+
+.p3{
+    position: absolute;
+    width: 38vw;
+    height: 20vw;
+}
+
+.p3 span{
+    color: #D5A7B4;
+    font-family: DS-DIGITAL;
+    font-size: 1.5vw;
+    font-weight: 500;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.p3 #span-1{
+    top: 43%;
+    left: 61%;
+}
+
+.p3 #span-2{
+    top: 43%;
+    left: 42%;
+}
+
+#pe3-top{
+    top: 10%;
+    left: 55%;
+}
+
+#pe3-bottom{
+    top: 55%;
+    left: 5%;
+}
+
+.shape{
+    position: absolute;
+    border: 1.5px solid #D5A7B4;
+    width: 9vw;
+    height: 9vw;
+    transform: rotate(68deg);
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.sh-1{
+    top: 20%;
+    left: 50%;
+}
+
+#se-1{
+    transform: rotate(22deg);
+    top: 20%;
+    left: 50%;
+}
+
+.sh-2{
+    top: 20%;
+    left: 30%;
+}
+
+#se-2{
+    transform: rotate(22deg);
+    top: 20%;
+    left: 30%;
+}
+
+#p3-line{
+    border-top: 2px solid #d5a7b4;
+    border-bottom: 2px solid #d5a7b4;
+    color: #D5A7B4;
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+    font-size: 2.5vw;
+    font-family: Neu-Hask-Grotesk-Pro;
+    font-weight: 100;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
 }
 
 @media (max-width: 500px){
@@ -1048,6 +1152,36 @@ html, body{
     #p3-s-bottom #circle2-t{
         width: 28px;
         height: 28px;
+    }
+
+    /* Page3 More  */
+
+    #p3-center{
+        width: 70vw;
+        height: 70vw;
+    }
+
+    .shape{
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .p3 span{
+        font-size: 3vw;
+    }
+
+    .p3 #span-1 {
+        top: 55%;
+        left: 69%;
+    }
+
+    .p3 #span-2 {
+        top: 55%;
+        left: 49%;
+    }
+
+    #p3-line{
+        font-size: 7.5vw;
     }
 
 }
